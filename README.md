@@ -3,6 +3,10 @@
 > 성남대로 3개 스마트 교차로의 통행 데이터 366만 건을 분석해
 > 혼잡을 정량 지표로 정의하고, 1시간 후 혼잡을 예측하며, 개선 우선순위를 도출한 프로젝트
 
+### 🔗 [대시보드 바로가기](https://traffic-congestion-analysis.streamlit.app/)
+
+교차로를 선택하고 경보 임계값을 조정하며 혼잡 현황을 직접 탐색할 수 있습니다.
+
 ---
 
 ## 한 줄 요약
@@ -189,6 +193,10 @@ pip install -r requirements.txt
 각 단계는 이전 단계의 산출물을 입력으로 사용한다.
 
 ### 대시보드 실행
+
+배포된 앱: **https://traffic-congestion-analysis.streamlit.app/**
+
+로컬에서 실행하려면:
 
 ```bash
 streamlit run dashboard/app.py
