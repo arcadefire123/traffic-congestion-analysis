@@ -1,0 +1,20 @@
+# 원본 데이터 (제공 기업 자산 — 커밋 금지)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
